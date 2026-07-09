@@ -69,7 +69,7 @@ export default function HomePage() {
             <div>
               <p className="eyebrow mb-3">Ventures</p>
               <h2 className="font-display text-3xl font-semibold tracking-tight text-signal md:text-4xl">
-                What we're building
+                What we&apos;re building
               </h2>
             </div>
             <Link href="/work" className="hidden text-sm text-muted hover:text-signal transition-colors md:flex items-center gap-1.5">
@@ -150,7 +150,7 @@ export default function HomePage() {
             <p>
               Konvexa is the single brand behind everything — security tools, QA
               automation, fintech products, and fashion. The industries are
-              different. The standard isn't.
+              different. The standard isn&apos;t.
             </p>
             <p>
               Everything built under Konvexa shares the same obsession: make
@@ -170,7 +170,7 @@ export default function HomePage() {
       {/* ── CTA ──────────────────────────────────────────────────── */}
       <section className="border-t border-border/50 py-20">
         <div className="container-page flex flex-col items-center text-center">
-          <p className="eyebrow mb-4">Let's talk</p>
+          <p className="eyebrow mb-4">Let&apos;s talk</p>
           <h2 className="font-display text-3xl font-semibold tracking-tight text-signal md:text-4xl">
             Follow the build.
           </h2>

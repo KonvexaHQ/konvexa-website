@@ -14,7 +14,7 @@ const VALUES = [
   },
   {
     title: "Cross industries without apology",
-    body: "Security tools and clothing brands can share a name if the quality and the intent behind them are the same. Konvexa doesn't pick one lane.",
+    body: "Security tools and clothing brands can share a name if the quality and the intent behind them are the same. Konvexa does not pick one lane.",
   },
   {
     title: "Ship, then improve",
