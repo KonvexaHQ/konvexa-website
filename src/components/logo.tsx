@@ -9,16 +9,20 @@ type LogoProps = {
 
 export function Logo({ className, size = 32, variant = "lockup" }: LogoProps) {
   const mark = (
+  <span
+    className="shrink-0 flex items-center justify-center rounded-full bg-signal overflow-hidden"
+    style={{ width: size, height: size, minWidth: size }}
+  >
     <Image
       src="/konvexa-logo.png"
       alt="Konvexa"
       width={size}
       height={size}
-      className="shrink-0 object-contain"
-      style={{ mixBlendMode: "multiply" }}
+      className="object-contain scale-75"
       priority
     />
-  );
+  </span>
+);
 
   if (variant === "mark") return <span className={className}>{mark}</span>;
 
