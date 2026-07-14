@@ -5,21 +5,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        void: "#0B0B0F",
-        signal: "#FFFFFF",
-        scan: "#4F8CFF",
-        breach: "#FF7A18",
-        clear: "#22C55E",
-        surface: {
-          DEFAULT: "#13131A",
-          raised: "#181820",
-        },
-        border: {
-          DEFAULT: "#1E1E28",
-          subtle: "#17171F",
-        },
-        muted: "#6B6B80",
-      },
+  void: "#0A0A0A",
+  signal: "#F0EDE6",
+  scan: "#C4A882",
+  breach: "#A0855A",
+  clear: "#7A9E7E",
+  surface: {
+    DEFAULT: "#111110",
+    raised: "#181714",
+  },
+  border: {
+    DEFAULT: "#2A2620",
+    subtle: "#1E1B17",
+  },
+  muted: "#7A7268",
+},
       fontFamily: {
         display: ["var(--font-display)", "sans-serif"],
         sans: ["var(--font-sans)", "sans-serif"],
