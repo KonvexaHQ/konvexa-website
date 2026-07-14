@@ -5,21 +5,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-  void: "#0A0A0A",
-  signal: "#F0EDE6",
-  scan: "#C4A882",
-  breach: "#A0855A",
-  clear: "#7A9E7E",
-  surface: {
-    DEFAULT: "#111110",
-    raised: "#181714",
-  },
-  border: {
-    DEFAULT: "#2A2620",
-    subtle: "#1E1B17",
-  },
-  muted: "#7A7268",
-},
+        void: "#F8F5EF",        // Primary Background — Warm Ivory
+        signal: "#1F1A17",      // Primary Text — Rich Charcoal
+        surface: {
+          DEFAULT: "#FFFFFF",   // Card Background — Pure White
+          raised: "#FAF8F4",    // Slightly lifted surface
+        },
+        border: {
+          DEFAULT: "#E8DFD2",   // Borders — Soft Beige
+          subtle: "#F0EAE0",
+        },
+        muted: "#6F6A63",       // Secondary Text — Slate Gray
+        scan: "#8B6F47",        // Accent Brown — links, highlights
+        breach: "#A0522D",      // Accent Dark Brown — warnings
+        clear: "#5C7A5C",       // Success Green — muted
+      },
       fontFamily: {
         display: ["var(--font-display)", "sans-serif"],
         sans: ["var(--font-sans)", "sans-serif"],
@@ -37,15 +37,10 @@ const config: Config = {
           "0%": { opacity: "0" },
           "100%": { opacity: "1" },
         },
-        shimmer: {
-          "0%": { transform: "translateX(-100%)" },
-          "100%": { transform: "translateX(100%)" },
-        },
       },
       animation: {
         "fade-up": "fade-up 0.7s ease-out both",
         "fade-in": "fade-in 0.5s ease-out both",
-        shimmer: "shimmer 2.4s ease-in-out infinite",
       },
     },
   },
