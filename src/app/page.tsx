@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { VENTURES, CATEGORIES, ECOSYSTEM, ROADMAP } from "@/lib/ventures";
-import { VentureCard } from "../components/venture-card";
+import { VentureCard } from "@/components/venture-card";
 
 export default function HomePage() {
   const [activeFilter, setActiveFilter] = useState("all");

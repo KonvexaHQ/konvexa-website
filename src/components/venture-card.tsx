@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Venture } from "@/lib/ventures";
-import { VentureIcon } from "../components/venture-icon";
+import { VentureIcon } from "@/components/venture-icon";
 
 function StatusBadge({ status }: { status: Venture["status"] }) {
   if (status === "Live") {
