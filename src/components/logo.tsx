@@ -15,6 +15,7 @@ export function Logo({ className, size = 32, variant = "lockup" }: LogoProps) {
       width={size}
       height={size}
       className="shrink-0 object-contain"
+      style={{ mixBlendMode: "multiply" }}
       priority
     />
   );
