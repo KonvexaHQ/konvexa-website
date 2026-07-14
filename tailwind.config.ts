@@ -5,20 +5,22 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        void: "#F8F5EF",        // Primary Background — Warm Ivory
-        signal: "#1F1A17",      // Primary Text — Rich Charcoal
+        void: "#F8F5EF",
+        signal: "#1F1A17",
+        gold: "#C8A97E",
         surface: {
-          DEFAULT: "#FFFFFF",   // Card Background — Pure White
-          raised: "#FAF8F4",    // Slightly lifted surface
+          DEFAULT: "#FFFFFF",
+          raised: "#FAF8F4",
         },
         border: {
-          DEFAULT: "#E8DFD2",   // Borders — Soft Beige
+          DEFAULT: "#E5E2DA",
           subtle: "#F0EAE0",
+          dark: "#2D2923",
         },
-        muted: "#6F6A63",       // Secondary Text — Slate Gray
-        scan: "#8B6F47",        // Accent Brown — links, highlights
-        breach: "#A0522D",      // Accent Dark Brown — warnings
-        clear: "#5C7A5C",       // Success Green — muted
+        muted: "#6F6A63",
+        scan: "#8B6F47",
+        breach: "#A0522D",
+        clear: "#5C7A5C",
       },
       fontFamily: {
         display: ["var(--font-display)", "sans-serif"],
