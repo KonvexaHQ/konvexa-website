@@ -71,7 +71,7 @@ export default function AboutPage() {
                     <p className="text-sm font-medium text-signal">{v.name}</p>
                     <p className="mt-0.5 text-xs text-muted">{v.category}</p>
                   </div>
-                  <span className={`mt-0.5 shrink-0 rounded-full px-2 py-0.5 font-mono text-[10px] ${v.categoryColor}`}>
+                  <span className="mt-0.5 shrink-0 rounded-full px-2 py-0.5 font-mono text-[10px] bg-gold/10 text-scan border border-gold/20">
                     {v.status}
                   </span>
                 </div>
